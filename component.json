@@ -1,0 +1,14 @@
+{
+  "name": "string-occurrence",
+  "repo": "bmcmahen/string-occurrence",
+  "description": "find all occurrences of a substring within a string, and return indexes",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
