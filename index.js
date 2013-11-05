@@ -17,7 +17,7 @@ module.exports = function(string, substring){
     var occurrence = contains(string, substring, pos);
     if (occurrence) {
       instances.push(occurrence);
-      pos = occurrence.end;
+      pos = occurrence.to;
     } else {
       break;
     }

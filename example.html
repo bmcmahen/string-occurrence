@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+<script src='build/build.js'></script>
+<script>
+var occurrence = require('string-occurrence');
+var str = 'hello my name is ben. what is your name? is it ben? ben ben ben';
+var instances = occurrence(str, 'ben');
+function splice(str, i, i2, substring){
+  return str.substr(0, i) + substring + str.substr(i2);
+}
+// str = splice(str, instances[0].from, instances[0].to + 1, '<b>');
+if (instances){
+  for (var i = instances.length - 1; i >= 0; i--){
+    console.log('hello');
+    var inst = instances[i];
+    str = splice(str, inst.to, inst.to, '</b>');
+    str = splice(str, inst.from, inst.from, '<b>');
+  }
+}
+console.log(str);
+</script>
+</body>
+</html>
