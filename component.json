@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "bmcmahen/contains-word": "*"
+    "bmcmahen/string-contains": "*"
   },
   "development": {},
   "license": "MIT",

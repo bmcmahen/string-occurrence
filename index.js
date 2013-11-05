@@ -1,4 +1,4 @@
-var contains = require('contains-word');
+var contains = require('string-contains');
 
 // Modelled after 'while': http://jsperf.com/count-string-occurrence-in-string
 
